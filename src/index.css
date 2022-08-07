@@ -1,0 +1,56 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.parent{
+  display: flex;
+  flex-flow: wrap row;
+  gap: 40px;
+}
+
+.bookCard{
+  display:flex;
+  flex-flow: nowrap column;
+  gap: 10px;
+  width: 170px;
+  /* border: 2px solid rgb(0, 136, 204); */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.author{
+  font-weight: bold;
+}
+
+select{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size:25px;
+  /* color: white; */
+  /* background: url("https://cdn-icons-png.flaticon.com/512/254/254434.png"); */
+  appearance: none;
+}
+
+
+.add{
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: fixed;
+  right:50px;
+  bottom:50px;
+}
